@@ -40,14 +40,15 @@ input[type=password] {
     display: block;
     border-radius: 10px;
     width: 200px;
-    height: 30px;v
+    height: 30px;
 }
 
 a{
     text-align: center;
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
 
 input {
     display: flex;
