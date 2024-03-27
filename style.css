@@ -1,8 +1,9 @@
 body{
-font-family: 'JetBrains Mono', sans-serif;
-margin: 0;
-padding: 0;
-  background: url(./assets/background.jpg) no-repeat center/cover;
+    font-family: 'JetBrains Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./assets/background.jpg) no-repeat center/cover;
+    height: 74vh;
 }
 
 
@@ -14,7 +15,7 @@ padding: 0;
     background-color: rgba(255, 255, 255, 0.39);
     border-radius: 30px;
     width: 450px;
-    height: 450px;
+    height: 400px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -34,9 +35,6 @@ padding: 0;
     padding: 10px 0px 50px;
 }
 
-#submit {
-    padding: 50px;
-}
 
 
 input[type=email] {
@@ -52,9 +50,6 @@ input[type=email] {
     height: 50px;
     
 }
-.email{
-    color: white;
-}
 
 input[type=password] {
     font-family: 'JetBrains Mono', sans-serif;
@@ -69,17 +64,6 @@ input[type=password] {
     height: 50px;
 }
 
-input[type=submit] {
-    display: block;
-
-    border-radius: 10px;
-    border: none;
-
-    width: 200px;
-    height: 30px;
-
-    margin: 0px auto;
-}
 
 a{
     display: block;
@@ -91,12 +75,30 @@ a{
     
 }
 
-
-
-
 ::placeholder {
     font-weight: 400;
     color: black;
     padding: 15px;
     
+}
+#submit a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    text-decoration: none;
+    font-weight: 600;
+
+    width: 300px;
+    height: 50px;
+    margin: 0px auto;
+
+    border-radius: 0px 0px 13px 13px;
+    margin-top: -250px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#submit a:hover{
+    background-color: rgba(216, 104, 0, 0.644);
+    font-weight: 1000;
 }
