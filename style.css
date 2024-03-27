@@ -21,14 +21,15 @@ body{
 
 #profile{
     display: flex;
-    height: 150px;
-    width: 150px;
+    height: 230px;
+    width: 230px;
     margin: 0px auto;
-    margin-top: -70px;
+    margin-top: -120px;
+
 }
 
 #email {
-    padding: 50px 0px 25px;
+    padding: 8px 0px 25px;
 }
 
 #password {
@@ -95,10 +96,14 @@ a{
 
     border-radius: 0px 0px 13px 13px;
     margin-top: -250px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(216, 104, 0, 0.404);
+
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 #submit a:hover{
-    background-color: rgba(216, 104, 0, 0.644);
+    background-color: rgba(216, 104, 0);
     font-weight: 1000;
+    transform: scale(1.2);
+    border-radius: 13px;
 }
