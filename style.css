@@ -4,20 +4,29 @@ margin: 0;
 padding: 0;
 background: linear-gradient(to bottom, #180085, #155094);
 height: 100vh;
+
+background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 #container {
-    border: solid 2px red;
     display: flex;
-    margin: 72px auto 32px;
+    margin: 250px auto;
     box-sizing: border-box;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
 }
 
 #profile{
     display: flex;
     height: 100px;
     width: 100px;
-    border: solid 2px red;
+    margin: 0px auto;
 }
 
 a{
@@ -25,9 +34,8 @@ a{
     display: flex;
     color: white;
 }
-label{
-    margin: 0px auto;
-    color: white;
+
+input{
     display: flex;
-    justify-content: center;
+    margin: 0px auto;
 }
