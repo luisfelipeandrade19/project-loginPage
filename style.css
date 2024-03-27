@@ -31,14 +31,25 @@ background-image: url(./assets/background.jpg);
 }
 input[type=email] {
     display: block;
+    border: none;
     border-radius: 10px;
     width: 200px;
     height: 30px;
 }
 
 input[type=password] {
+    
+    display: block;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+input[type=submit] {
     display: block;
     border-radius: 10px;
+    border: none;
     width: 200px;
     height: 30px;
 }
