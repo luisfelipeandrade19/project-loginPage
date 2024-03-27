@@ -1,0 +1,33 @@
+body{
+font-family: 'JetBrains Mono';
+margin: 0;
+padding: 0;
+background: linear-gradient(to bottom, #180085, #155094);
+height: 100vh;
+}
+
+#container {
+    border: solid 2px red;
+    display: flex;
+    margin: 72px auto 32px;
+    box-sizing: border-box;
+}
+
+#profile{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: solid 2px red;
+}
+
+a{
+    text-align: center;
+    display: flex;
+    color: white;
+}
+label{
+    margin: 0px auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
