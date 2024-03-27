@@ -20,6 +20,7 @@ background-image: url(./assets/background.jpg);
     border-radius: 10px;
     width: 450px;
     height: 450px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 #profile{
@@ -28,6 +29,19 @@ background-image: url(./assets/background.jpg);
     width: 100px;
     margin: 0px auto;
 }
+input[type=email] {
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+input[type=password] {
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;v
+}
 
 a{
     text-align: center;
@@ -35,7 +49,11 @@ a{
     color: white;
 }
 
-input{
+input {
     display: flex;
     margin: 0px auto;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
 }
