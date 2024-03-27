@@ -44,7 +44,7 @@ input[type=email] {
     font-family: 'JetBrains Mono', sans-serif;
     font-weight: 600;
 
-    display: block;
+    display: flex;
 
     border: none;
     border-radius: 10px;
@@ -53,6 +53,9 @@ input[type=email] {
     height: 50px;
     
 }
+
+
+
 
 input[type=password] {
     font-family: 'JetBrains Mono', sans-serif;
@@ -76,7 +79,6 @@ a{
     font-size: 14px;
     margin: 0px 8px;
     margin-top: -45px;
-    
 }
 
 #selecs a{
@@ -126,4 +128,9 @@ a{
 .box{
     font-size: 13px;
     font-weight: 700;
+}
+
+input,
+input::placeholder{ 
+  text-align: center;
 }
